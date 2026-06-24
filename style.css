@@ -53,8 +53,24 @@ a {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-weight: 850;
   font-size: 1.05rem;
+}
+
+.logo-text {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.logo-main {
+  font-weight: 850;
+}
+
+.logo-author {
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: var(--muted);
 }
 
 .logo-mark {
